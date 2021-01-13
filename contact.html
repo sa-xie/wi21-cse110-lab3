@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>Shuhua's User Page</title>
+      <meta charset="utf-8">
+      <link href="empty.css" rel="stylesheet">  
+  </head>
+  <body>
+      <header>
+        <nav>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+      </header>
+      <body>
+        <form>
+            <div>
+                <label>Name :</label>
+                <input type="text" required minlength="4" maxlength="20" size="30">
+            </div>
+            <div>
+            <label>Please select your reason for contact:</label>
+            <select>
+                <optgroup label="Returns">
+                    <option>Broken/Faulty Item</option>
+                    <option>Incorrect Item</option>
+                    <option>Item no longer needed</option>
+                    <option>Other Return</option>
+                </optgroup>
+                <optgroup label="Billing">
+                    <option>Incorrect amount billed</option>
+                    <option>Other billing issue</option>
+                </optgroup>
+                <option>Other</option>
+            </select>
+            </div>
+
+            <fieldset>
+                <legend>Choose your birth month:</legend>
+
+                <input type="radio">
+                <label>Jan-Mar</label> <br>
+
+                <input type="radio">
+                <label>Apr-Jun</label> <br>
+
+                <input type="radio">
+                <label>July-Sept</label> <br>
+
+                <input type="radio">
+                <label>Oct-Dec</label>
+            </fieldset>
+
+            <div>
+                <div>
+                    <label>Year:</label>
+                    <input type="text" required minlength="4" maxlength="4" size="10">
+                </div>
+            </div>
+
+            <div>
+                <label>Choose a gender:</label>
+                <input list="genders" />
+
+                <datalist id="genders">
+                    <option value="Male">
+                    <option value="Female">
+                    <option value="Genderfluid">
+                    <option value="Agender">
+                    <option value="Other/Do not wish to specify">
+                </datalist>
+            </div>
+
+            <div>
+                <label for="fav-color">Your favorite color?:</label>
+                <input type="color" name="fav-color" id="fav-color">
+            </div>
+
+            <div>
+                <label for="leter">Write your message:</label>
+
+                <textarea id="letter" rows="20" cols="30">
+                Hello Shuhua, ...
+                </textarea>
+            </div>
+            <div>
+                <label for="attachment">Add attachment(s):</label>
+                <input type="file" name="attachment" id="attachment">
+                <br>
+                <label for="chk">Check if you added attachments:</label>
+                <input type="checkbox" name="chk" id="chk">
+                <br>
+                <input type="reset">
+                <br>
+                <label for="txt">Enter your phone number:</label>
+                <input type="text" name="txt" id="txt">
+                <br>
+                <label for="captcha">Prove you're a human! What is 1 + 3?:</label>
+                <input type="number" min="1" name="captcha" id="captcha">
+                <br>
+                <input type="submit">
+            </div>
+        </form>
+      </body>
+      <footer>
+        <p>© 2020 Shuhua Xie</p>
+      </footer>
+  </body>
+</html>
