@@ -36,11 +36,16 @@ h1, h2, h3, h4{
     color: hsl(221, 97%, 62%);
 }
 
+hr + span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
 h2{
     text-decoration: underline;
 }
 
-header, header nav, li + li.navi-item, ul ~ #title{
+header, header nav, li + li.navi-item a, #title, .navi-item a{
     background-color: rgba(64, 123, 252, .9);
     color: rgb(255, 255, 255);
     max-width: 100%;
@@ -74,6 +79,7 @@ code{
     border-left: solid;
     border-width: .5em;
     background-color:rgba(64, 123, 252, .75);
+    padding: 2.5%;
 }
 
 button{
