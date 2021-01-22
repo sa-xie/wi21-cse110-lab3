@@ -1,0 +1,39 @@
+/* TOC
+
+All
+	
+Phones
+	
+Others?
+	
+Large Devices
+	
+Desktop
+	
+*/
+
+/*-----All viewports-----*/
+    
+/*-----Phones (680-)-----*/
+    
+@media only screen and (max-width: 680px){
+    
+}
+    
+/*-----Others?? (681-1023)-----*/
+    
+@media only screen and (min-width: 680px){
+        
+}
+    
+/*-----Large laptops and Pads (1024-1919)-----*/
+    
+@media only screen and (min-width: 1024px){
+    
+}
+    
+/*-----Desktop (1920+)-----*/
+    
+@media only screen and (min-width: 1920px){
+    
+}
