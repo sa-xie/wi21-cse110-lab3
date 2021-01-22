@@ -40,6 +40,12 @@ h2{
 header, header nav{
     background-color: rgba(64, 123, 252, .9);
     color: rgb(255, 255, 255);
+    max-width: 100%;
+}
+
+header nav{
+    min-width: 50%;
+    margin: auto;
 }
 
 footer{
@@ -49,6 +55,14 @@ footer{
 
 .navi>li:hover{
     color:#ddd;
+}
+
+a{
+    color:hsla(221, 97%, 62%, .9);
+}
+
+a:active{
+    color:hsla(221, 97%, 62%, 1.0);
 }
 
 /*Borders*/
@@ -87,7 +101,11 @@ button{
         padding-bottom: .25em;
         padding-left: .5em;
         margin: 1em 1.5em 1em 1.5em;
-    }   
+    }  
+    
+    div{
+        width:100%;
+    }
     
 }
     
