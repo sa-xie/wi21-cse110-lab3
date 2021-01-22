@@ -40,7 +40,7 @@ h2{
     text-decoration: underline;
 }
 
-header, header nav, li+li.navi-item, ul~#title{
+header, header nav, li + li.navi-item, ul ~ #title{
     background-color: rgba(64, 123, 252, .9);
     color: rgb(255, 255, 255);
     max-width: 100%;
@@ -56,7 +56,7 @@ footer{
     color: rgb(255, 255, 255);
 }
 
-.navi>li:hover{
+.navi > li:hover{
     color:#ddd;
 }
 
@@ -282,7 +282,7 @@ button{
     }
 
     p, *{
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     li.navi-item{
