@@ -24,12 +24,17 @@ Desktop
 *{
     font-family: 'Open Sans', sans-serif;
     color: black;
+    text-align:left;
 }
 
 h1, h2, h3, h4{
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: hsl(221, 97%, 62%);
+}
+
+h2{
+    text-decoration: underline;
 }
 
 header, header nav{
@@ -46,26 +51,118 @@ footer{
     color:#ddd;
 }
 
+/*Borders*/
+code{
+    border-color: #407bfc;
+    border-left: solid;
+    border-width: .5em;
+    background-color:rgba(64, 123, 252, .75);
+}
+
+button{
+    border-style: solid;
+    border-radius: 10%;
+}
+
 /*-----Phones (680-)-----*/
     
 @media only screen and (max-width: 680px){
+    /*Font*/
+    h1{
+        font-size: 16px;
+    }
+
+    h2, h3{
+        font-size: 14px;
+    }
+
+    p, *{
+        font-size: 1em;
+    }
+
+    li.navi-item{
+        font-size: 12px;
+        padding-top: .25em;
+        padding-right: .5em ;
+        padding-bottom: .25em;
+        padding-left: .5em;
+        margin: 1em 1.5em 1em 1.5em;
+    }   
     
 }
     
 /*-----Others?? (681-1023)-----*/
     
 @media only screen and (min-width: 680px){
-        
+    /*Font*/
+    h1{
+        font-size: 18px;
+    }
+
+    h2, h3{
+        font-size: 16px;
+    }
+
+    p, *{
+        font-size: 1em;
+    }
+
+    li.navi-item{
+        font-size: 14px;
+        padding-top: .25em;
+        padding-right: .5em ;
+        padding-bottom: .25em;
+        padding-left: .5em;
+        margin: 1em 1.5em 1em 1.5em;
+    }        
 }
     
 /*-----Large laptops and Pads (1024-1919)-----*/
     
 @media only screen and (min-width: 1024px){
+    /*Font*/
+    h1{
+        font-size: 18px;
+    }
+
+    h2, h3{
+        font-size: 16px;
+    }
+
+    p, *{
+        font-size: 1em;
+    }
+
+    li.navi-item{
+        font-size: 14px;
+        margin-top: 1em;
+        margin-right: 1.5em ;
+        margin-bottom: 1em;
+        margin-left: 1.5em;
+        padding: .25em;
+    }
     
 }
     
 /*-----Desktop (1920+)-----*/
     
 @media only screen and (min-width: 1920px){
-    
+    /*Font*/
+    h1{
+        font-size: 20px;
+    }
+
+    h2, h3{
+        font-size: 18px;
+    }
+
+    p, *{
+        font-size: 1.1em;
+    }
+
+    li.navi-item{
+        font-size: 16px;
+        margin: 1em 1.5em 1em 1.5em;
+        padding: .25em;
+    }
 }
