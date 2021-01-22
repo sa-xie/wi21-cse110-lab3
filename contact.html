@@ -87,21 +87,27 @@
                 </textarea>
             </div>
             <div id=form-field class=misc-field>
-                <label for="attachment">Add attachment(s):</label>
-                <input type="file" name="attachment" id="attachment">
-                <br>
-                <label for="chk">Check if you added attachments:</label>
-                <input type="checkbox" name="chk" id="chk">
-                <br>
-                <input type="reset">
-                <br>
-                <label for="txt">Enter your phone number:</label>
-                <input type="text" name="txt" id="txt">
-                <br>
-                <label for="captcha">Prove you're a human! What is 1 + 3?:</label>
-                <input type="number" min="1" name="captcha" id="captcha">
-                <br>
-                <input type="submit" class=submit-btn>
+                <div class=attach-field>
+                    <label for="attachment">Add attachment(s):</label>
+                    <input type="file" name="attachment" id="attachment">
+                    <br>
+                    <label for="chk">Check if you added attachments:</label>
+                    <input type="checkbox" name="chk" id="chk">
+                </div>
+                <div class=reset-field>
+                    <input type="reset">
+                </div>
+                <div class=phn-field>
+                    <label for="txt">Enter your phone number:</label>
+                    <input type="text" name="txt" id="txt">
+                </div>
+                <div class=captcha-field>
+                    <label for="captcha">Prove you're a human! What is 1 + 3?:</label>
+                    <input type="number" min="1" name="captcha" id="captcha">
+                </div>
+                <div class=submit-field>
+                    <input type="submit" class=submit-btn>
+                </div>
             </div>
         </form>
     </main>

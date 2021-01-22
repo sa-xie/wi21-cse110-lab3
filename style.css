@@ -4,6 +4,8 @@ All
     Header
     Fonts
     Border
+    Navi
+    Form
 Phones
 	Fonts
 Others?
@@ -79,7 +81,7 @@ button{
     border-radius: 10%;
 }
 
-/*navi*/
+/*Navi*/
 .navi{
     display: flex;
     flex-direction: row;
@@ -90,6 +92,97 @@ button{
 
 .navi-item{
     flex-basis: 150px;
+}
+
+/*Form*/
+#contact-form{
+    display: grid;
+    grid-template-columns: 5% auto auto auto auto 5%;
+    grid-template-rows: 2em 2em 4em 4em 4em 25em 10em 2em 2em;
+}
+
+.name-field{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.reason-field{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.month-field{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.yr-field{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.gender-field{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.color-field{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.msg-field{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.attach-field{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.phn-field{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.captcha-field{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+.submit-field{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+
+.reset-field{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 10;
 }
 
 /*-----Phones (680-)-----*/
