@@ -1,7 +1,8 @@
 /* TOC
 
 All
-	
+    Header
+    Fonts
 Phones
 	
 Others?
@@ -13,7 +14,38 @@ Desktop
 */
 
 /*-----All viewports-----*/
-    
+    /*Header*/    
+#title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+/*Fonts*/
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: hsl(221, 97%, 62%);
+}
+
+header, header nav{
+    background-color: rgba(64, 123, 252, .9);
+    color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: hsla(221, 97%, 62%, .9);
+    color: rgb(255, 255, 255);
+}
+
+.navi>li:hover{
+    color:#ddd;
+}
+
 /*-----Phones (680-)-----*/
     
 @media only screen and (max-width: 680px){
